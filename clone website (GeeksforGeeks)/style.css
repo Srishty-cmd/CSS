@@ -1,0 +1,447 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.header h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header h4 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main {
+    background-color: aliceblue;
+    height: 1250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.event {
+    height: 150px;
+    width: 90%;
+    position: absolute;
+    top: 200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 30px auto;
+}
+
+.event:hover {
+    transform: scaleX(1.1);
+}
+
+.event h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 40px;
+    margin-top: 20px;
+    color: blue;
+}
+
+.event p {
+    margin-top: 30px;
+    padding-left: 40px;
+}
+
+.schedule {
+    height: 300px;
+    width: 90%;
+    position: absolute;
+    top: 400px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 30px auto;
+}
+
+.schedule:hover {
+    transform: scaleX(1.1);
+}
+
+.schedule h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 40px;
+    margin-top: 20px;
+    color: blue;
+}
+
+.schedule table {
+    width: 95%;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-collapse: collapse;
+}
+
+.schedule table,
+.schedule th,
+.schedule td {
+    border: 1px solid black;
+
+}
+
+.schedule th,
+.schedule td {
+    text-align: left;
+    padding: 12px;
+}
+
+.speaker {
+    height: 150px;
+    width: 90%;
+    position: absolute;
+    top: 750px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 30px auto;
+}
+
+.speaker:hover {
+    transform: scaleX(1.1);
+}
+
+.speaker h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 40px;
+    margin-top: 20px;
+    color: blue;
+}
+
+.speaker p {
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+.Contact {
+    height: 150px;
+    width: 90%;
+    position: absolute;
+    top: 950px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 30px auto;
+}
+
+.Contact:hover {
+    transform: scaleX(1.1);
+}
+
+.Contact h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 40px;
+    margin-top: 20px;
+    color: blue;
+}
+
+.Contact p {
+    margin-top: 20px;
+    padding-left: 40px;
+}
+
+.Contact a {
+    color: black;
+    text-decoration: underline;
+    background-color: white;
+
+}
+
+.Contact a:hover {
+    color: blue;
+}
+
+.footer {
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.footer a {
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.footer a:hover {
+    color: blue;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.reg {
+    height: 80px;
+    width: 100%;
+    background-color: green;
+    padding-top: 15px;
+    border-bottom: 10px solid black;
+}
+
+.reg h1,
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+}
+
+.form {
+    width: 400px;
+    border: 5px solid green;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 50px;
+    background-color: white;
+    font-family: cursive;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.form button {
+    background-color: green;
+    color: white;
+    width: 170px;
+}
+
+.next {
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.next button {
+    width: 100px;
+}
+
+.next button:hover {
+    background-color: blue;
+    color:white;
+}
+
+.contact {
+    height: 80px;
+    width: 100%;
+    background-color: green;
+    padding-top: 20px;
+    border-bottom: 10px solid black;
+
+}
+
+.contact h1,
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+}
+
+
+.contact_main {
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+.contact_form {
+    width: 400px;
+    border: 5px solid green;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 50px;
+    background-color: white;
+    font-family: cursive;
+    animation: oo 2s ease-in-out;
+}
+
+@keyframes oo {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.contact_form h3 {
+    color: green;
+}
+
+.contact_form button {
+    background-color: green;
+    color: white;
+}
+
+.contact_footer {
+    background-color: black;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.contact_footer ul {
+    list-style-type: none;
+}
+
+.body {
+    background-color: aliceblue;
+}
+
+.payment {
+    height: 80px;
+    width: 100%;
+    background-color: green;
+    padding-top: 20px;
+    border-bottom: 10px solid black;
+
+}
+
+.payment h1,
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+}
+
+.payment_main {
+
+    background-color: aliceblue;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    animation: slidein 8s linear 5s infinite alternate;
+
+}
+
+@keyframes slidein {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.payment_main h3 {
+    color: blue;
+}
+
+.payment_main button {
+    background-color: green;
+    color: white;
+}
+
+.free {
+    height: 250px;
+    width: 300px;
+    position: absolute;
+    left: 200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 30px auto;
+
+
+}
+
+
+.plus {
+    height: 350px;
+    width: 300px;
+    position: absolute;
+    left: 600px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 30px auto;
+}
+
+.teacher {
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    left: 1000px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 30px auto;
+}
+
+.payment_footer{
+    height:50px;
+    width:100%;
+    background-color: black;
+    color:white;
+    text-align:center;
+    padding-top:15px;
+}
+
+.payment_footer button:hover{
+    background-color: blue;
+    color:white;
+}
