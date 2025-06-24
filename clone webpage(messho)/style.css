@@ -1,0 +1,238 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    height: 100px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#box1 {
+    background-image: url("meeshoLogo.svg");
+    background-size: cover;
+    height: 35px;
+    width: 150px;
+    margin: 20px;
+    align-items: center;
+}
+
+#box2 {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    margin: 20px;
+}
+
+#box3 {
+    align-items: center;
+    margin: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#box4 {
+    align-items: center;
+    margin: 25px;
+}
+
+#box5 {
+    align-items: center;
+    margin: 20px;
+    color: purple;
+}
+
+#box6 {
+    align-items: center;
+    margin: 20px;
+    color: purple;
+}
+
+.link {
+    height: 50px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero {
+    background-image: url("hero.webp");
+    background-size: cover;
+    height: 500px;
+    text-align: right;
+    color: antiquewhite;
+    padding: 50px;
+}
+
+button {
+    height: 30px;
+    width: 150px;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    color: purple;
+}
+
+.return {
+    height: 50px;
+    border: 1px solid purple;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.option {
+    height: 150px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#p1 {
+    background-image: url("accessories.webp");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+
+#p2 {
+    background-image: url("grocery.webp");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+
+#p3 {
+    background-image: url("homedecor.webp");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+
+#p4 {
+    background-image: url("menwear.webp");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+
+#p5 {
+    background-image: url("womenwear.webp");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+
+.hero1 {
+    background-image: url("hero1.webp");
+    background-size: cover;
+    height: 500px;
+    text-align: right;
+    color: antiquewhite;
+    padding: 50px;
+}
+
+.select {
+    height: 300px;
+    background-color: antiquewhite;
+    color: purple;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.one {
+    width: 200px;
+    border: 1px solid black;
+}
+
+h5 {
+    text-decoration: underline;
+}
+
+#b1 {
+    background-image: url("himalaya.webp");
+    background-size: cover;
+    height: 150px;
+    width: 230px;
+}
+
+#b2 {
+    background-image: url("mamaearth.webp");
+    background-size: cover;
+    height: 150px;
+    width: 220px;
+}
+
+#b3 {
+    background-image: url("nivea.webp");
+    background-size: cover;
+    height: 150px;
+    width: 220px;
+}
+
+#b4 {
+    background-image: url("wow.webp");
+    background-size: cover;
+    height: 150px;
+    width: 230px;
+}
+
+#b5 {
+    background-image: url("wild\ stone.webp");
+    background-size: cover;
+    height: 150px;
+    width: 230px;
+}
+
+.move {
+    height: 180px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-evenly;
+    animation: slidein 5s linear 6s infinite alternate;
+}
+
+@keyframes slidein {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+#marquee {
+    height: 32px;
+    background-color: antiquewhite;
+    font-size: 30px;
+    color: purple;
+}
+
+.footer {
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+
+.anchor {
+    color: white;
+    text-decoration: underline;
+}
+
+h4 {
+    text-align: center;
+    background-color: antiquewhite;
+    color: purple;
+}
